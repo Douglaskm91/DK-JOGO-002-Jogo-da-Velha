@@ -29,7 +29,7 @@ $(function () {
             casasIguais(1, 4, 7) || casasIguais(2, 5, 8) || casasIguais(3, 6, 9) ||
             casasIguais(1, 5, 9) || casasIguais(3, 5, 7)
         ) {
-            $("#resultado").html("<h1>O jogador " + vencedor + " venceu! </h1>");
+            $("#resultado").html("<center><h1>O jogador " + vencedor + " venceu! </h1></center>" + "<center><a href='index.html'>Jogar Novamente</a></center>");
             $(".casa").off("click");
         }
     }
